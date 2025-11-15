@@ -1,28 +1,43 @@
-# CodTech-Tasks
-This project contains two tasks completed during my internship at CodTech IT Solutions.
-Both tasks demonstrate practical data handling, visualization, and automation using Python.
+# 📌 API Integration & Automated Reporting (CodTech IT Solutions)
 
-Task 1: Weather Forecast Analytics (API Integration)
-Overview
+This project contains **two tasks** completed during my internship at **CodTech IT Solutions**.  
+Both tasks demonstrate practical data handling, API integration, visualization, and automated reporting using Python.
 
-Fetches real-time 5-day / 3-hour weather forecast data using the OpenWeatherMap API, processes it, and visualizes key weather metrics.
+---
 
-Features
+## 🚀 Task 1: Weather Forecast Analytics (API Integration)
 
-Integrated OpenWeatherMap API using requests
+### **Overview**
+This module fetches real-time **5-day / 3-hour forecast** data using the **OpenWeatherMap API**, processes it, and visualizes key weather metrics.
 
-Flattened and cleaned JSON data with pandas
+### **Features**
+- Integrated OpenWeatherMap API using `requests`
+- Flattened & cleaned nested JSON using `pandas`
+- Extracted temperature, humidity, and weather condition fields
+- Visualized:
+  - Temperature Trend  
+  - Humidity Distribution  
+  - Correlation Heatmap  
 
-Extracted temperature, humidity, and weather conditions
+### **Tech Used**
+`Python` • `requests` • `pandas` • `matplotlib` • `seaborn`
 
-Visualized:
+---
 
-Temperature Trend
+## 📊 Task 2: Automated Sales Report Generator (CSV → Charts → PDF)
 
-Humidity Distribution
+### **Overview**
+This module automates reading a **sales CSV**, analyzing the data, generating charts, and exporting everything into a clean **PDF report**.
 
-Correlation Heatmap
+### **Features**
+- Upload CSV file containing `Date` and `Sales`
+- Generates:
+  - Summary statistics  
+  - Line chart (Sales Over Time)  
+  - Bar chart (Sales Comparison)
+- Embeds charts & insights into a downloadable **PDF**
+- End-to-end automated reporting flow
 
-Tech Used
+### **Tech Used**
+`Python` • `pandas` • `matplotlib` • `FPDF`
 
-Python, requests, pandas, matplotlib, seaborn
